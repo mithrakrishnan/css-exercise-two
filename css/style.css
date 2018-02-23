@@ -1,13 +1,62 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #F0F0E8;
+  color: #435C73;
+  font-size: 16px;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #88BABF;
   float: left;
   position: fixed;
   width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+figcaption {
+  font-family: 'Verdana', 'arial black', sans-serif;
+  font-size: 11px;
+  line-height: 1.1;
+  margin-top: 10px
+}
+
+h1 {
+  font-family: 'Verdana', 'arial black', sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 1;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+h3 {
+  font-family: 'Verdana', 'arial black', sans-serif;
+  font-weight: regular;
+  font-style: italic;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.author {
+  font-family: 'Verdana', 'arial black', sans-serif;
+  font-weight: regular;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.story-text {
+  font-size: 16px;
+  line-height: 1.1;
+  border: 1px solid #F0F0E8;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.story-text p {
+  border: 1px solid #F0F0E8;
+  margin-top: 10px;
 }
 
 .logo {
